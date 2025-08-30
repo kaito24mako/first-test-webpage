@@ -2,15 +2,12 @@ h1 {
     background-color: aquamarine;
     font-weight: bold;
 }
-
 h3 {
     color: rgb(3, 3, 110);
 }
-
 ol, ul { 
     list-style-position: inside;
 }
-
 .special-text {
     color: green;
     font-weight: bold;
@@ -18,4 +15,28 @@ ol, ul {
     font-family:Arial, Helvetica, sans-serif
 }
 
+/* The buttons aren't clickable - why? */
+.button {
+    font-weight: 600;
+    z-index: -1;
+    background-color: #0000FF;
+}
+.button.love,.like {
+    color: #0000FF;
+}
+#love-button {
+    background-color: rgb(225, 0, 0);
+}
+#like-button {
+    background-color: #00FF00;
+}
+.button.dislike,.hate {
+    color: rgb(180, 0, 0);
+}
+#dislike-button {
+    background-color: rgb(225, 165, 0);
+}
+#hate-button {
+    background-color: rgba(0, 0, 0, 0.9);
+}
 
