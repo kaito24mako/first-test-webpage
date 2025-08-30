@@ -1,0 +1,21 @@
+h1 {
+    background-color: aquamarine;
+    font-weight: bold;
+}
+
+h3 {
+    color: rgb(3, 3, 110);
+}
+
+ol, ul { 
+    list-style-position: inside;
+}
+
+.special-text {
+    color: green;
+    font-weight: bold;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+
