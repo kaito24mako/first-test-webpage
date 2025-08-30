@@ -39,7 +39,12 @@ ol, ul {
 #hate-button {
     background-color: rgba(0, 0, 0, 0.9);
 }
+/* Below is text on love.html - the "I love you" button link */
 .sub-button {
     background-color: #FFFFFF;
+    font-size: 50px;
+    color: hsl(350, 100%, 75%);
+    font-weight: 600;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
