@@ -52,16 +52,6 @@ ol, ul {
     font-family: Verdana, Tahoma, sans-serif;
 }
 /* Box model practice */
-.box.simple {
-    box-sizing: border-box;
-    width: 200px;
-    height: auto;
-    padding: 1em;
-    border: 5px solid black;
-    margin: 0 auto 0 auto;
-    font-weight: bold;
-    background-color: lightblue;
-}
 .box.complex {
     box-sizing: border-box;
     width: 350px;
@@ -71,7 +61,7 @@ ol, ul {
     border-bottom: 3px solid blue;
     border-left: 4px solid black;
     border-right: 4px solid black;
-    margin: 20px auto 0 auto;
+    margin: 10px auto 50px auto;
 }
 span {
     box-sizing: border-box;
