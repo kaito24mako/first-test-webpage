@@ -52,10 +52,32 @@ ol, ul {
     font-family: Verdana, Tahoma, sans-serif;
 }
 /* Box model practice */
-.box.apple {
+.box.simple {
     box-sizing: border-box;
     width: 360px;
     height: 20px;
     padding: 25px;
     border: 5px solid black;
+    margin: 30px;
+}
+.box.complex {
+    box-sizing: border-box;
+    margin: 40px auto 50px auto;
+    border-top: 5px dotted red;
+    border-bottom: 3px solid blue;
+    border-left: 4px solid black;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 60px;
+    width: auto;
+    height: auto;
+}
+span {
+    margin: 10px;
+    border: 2px solid blue;
+    padding: 5px;
+    width: 40px;
+    height: 50px;
+    background-color: lightblue;
+    display: inline-block;
 }
