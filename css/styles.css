@@ -15,7 +15,6 @@ ol, ul {
     font-family:Arial, Helvetica, sans-serif
 }
 
-/* The buttons aren't clickable - why? */
 .button {
     font-weight: 600;
     z-index: -1;
