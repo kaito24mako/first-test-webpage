@@ -54,30 +54,29 @@ ol, ul {
 /* Box model practice */
 .box.simple {
     box-sizing: border-box;
-    width: 360px;
-    height: 20px;
-    padding: 25px;
+    width: auto;
+    height: auto;
+    padding: 1em;
     border: 5px solid black;
-    margin: 30px;
+    margin: 0 auto 0 auto;
 }
 .box.complex {
     box-sizing: border-box;
-    margin: 40px auto 50px auto;
+    width: 350px;
+    height: auto;
+    padding: 10px 80px 20px 10px;
     border-top: 5px dotted red;
     border-bottom: 3px solid blue;
     border-left: 4px solid black;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    padding-right: 60px;
-    width: auto;
-    height: auto;
+    border-right: 4px solid black;
+    margin: 20px auto 0 auto;
 }
 span {
-    margin: 10px;
+    margin: 3px;
     border: 2px solid blue;
     padding: 5px;
     width: 40px;
-    height: 50px;
+    height: auto;
     background-color: lightblue;
     display: inline-block;
 }
