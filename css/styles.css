@@ -1,3 +1,8 @@
+/* border-box code below */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 h1 {
     background-color: aquamarine;
     font-weight: bold;
@@ -12,7 +17,7 @@ ol, ul {
     color: green;
     font-weight: bold;
     font-size: 15px;
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .button {
@@ -46,4 +51,11 @@ ol, ul {
     font-weight: 600;
     font-family: Verdana, Tahoma, sans-serif;
 }
-
+/* Box model practice */
+.box.apple {
+    box-sizing: border-box;
+    width: 360px;
+    height: 20px;
+    padding: 25px;
+    border: 5px solid black;
+}
