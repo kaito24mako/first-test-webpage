@@ -59,6 +59,7 @@ ol, ul {
     padding: 1em;
     border: 5px solid black;
     margin: 0 auto 0 auto;
+    background-color: white;
 }
 .box.complex {
     box-sizing: border-box;
@@ -72,11 +73,12 @@ ol, ul {
     margin: 20px auto 0 auto;
 }
 span {
-    margin: 3px;
-    border: 2px solid blue;
-    padding: 5px;
-    width: 40px;
+    box-sizing: border-box;
+    width: 80px;
     height: auto;
+    padding: 5px;
+    border: 2px solid blue;
+    margin: 3px;
     background-color: lightblue;
     display: inline-block;
 }
