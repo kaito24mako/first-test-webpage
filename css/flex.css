@@ -1,0 +1,24 @@
+.flex-container {
+    display: inline-block;
+    border: 4px solid orange;
+    display: flex
+}
+.flex-container div {
+    border: 1px solid black;
+    padding: 0.5em 1px;
+    font-size: 1.2em;
+    flex: 1;
+}
+.flex-container .home {
+    background-color: rgb(114, 199, 228);
+    flex: 2 1 auto;
+}
+.flex-container .search {
+    background-color: lightgreen;
+}
+.flex-container .profile {
+    background-color: rgb(114, 199, 228);
+}
+.flex-container .logout {
+    background-color: lightgreen;
+}

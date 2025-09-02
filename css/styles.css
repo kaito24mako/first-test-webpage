@@ -67,10 +67,24 @@ span {
     box-sizing: border-box;
     width: 80px;
     height: auto;
-    padding: 5px;
     border: 2px solid blue;
-    margin: 3px;
     font-weight: bold;
     background-color: lightblue;
     display: inline-block;
+}
+
+/* Flexbox on image and links section */
+.image-container {
+    display: flex;
+    border: 5px solid blue;
+}
+.image-container div {
+    flex: 1;
+}
+
+.image-container .image-1 {
+    background-color: yellow;
+}
+.image-container .image-2 {
+    background-color: green;
 }

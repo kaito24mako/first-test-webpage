@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Kaito's First Webpage</title>
         <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/flex.css">
         <style>
             * {
                 text-align: center;
@@ -15,7 +16,6 @@
     <body>
         <h1>Welcome to Kaito's First Website!</h1>
         <p><small>This is a testing webpage for my basic coding skills</small></p>
-        <!-- This is a comment for developers to read -->
 
         <h3>CSS Testing</h3>
         <p class="special-text">This paragraph contains stylish CSS styling!</p>
@@ -30,12 +30,14 @@
             <li>Stephen Curry</li>
         </ol>
         
+        <!-- Flex applied but not complete-->
         <!-- Link to love.html has underline - how to remove? -->
-        <h3>Images and Links</h3>
-        <img src="./img/mochi.gif" width="150" alt="A mochi dancing"><br>
-        <a href="https://share.google/images/e52jnOL8aNe5FZpRA" target="_blank" rel="noopener noreferrer"><img src="./img/cat.jpg" width="200" alt="Munchkin cat looking stoic"></a><br>
-        <a href="https://share.google/images/e52jnOL8aNe5FZpRA" target="_blank" rel="noopener noreferrer">Link to Cat Image</a>
-   
+            <h3>Images and Links</h3>
+        <div class="image-container">
+            <div class="image-1"><img src="./img/mochi.gif" width="150" alt="A mochi dancing"><br></div>
+            <div class="image-2"><a href="https://share.google/images/e52jnOL8aNe5FZpRA" target="_blank" rel="noopener noreferrer"><img src="./img/cat.jpg" width="200" alt="Munchkin cat looking stoic"></a><br></div>
+        </div>
+
         <h3>The Wall of CSS Basics </h3>
         <button id="love-button" class="button love"><a href="./other/love.html">I love you</a></button>
         <button id="like-button" class="button like">I like you</button>
@@ -44,6 +46,14 @@
 
         <h3>The Box Model</h3>
         <p class="box complex">I am a complex <a href="https://www.youtube.com/watch?v=nSst4-WbEZk"><span>box</span></a> with a paragraph that should not be touched.</p>
+
+        <h3>Flexbox</h3>
+        <div class="flex-container">
+            <div class="home">Home</div>
+            <div class="search">Search</div>
+            <div class="profile">Profile</div>
+            <div class="logout">Logout</div>
+        </div>
 
         <h3>Link to Extras Page</h3>
         <p>This section provides a <em>relative link</em> to the Extras page, which contains miscellanious information.</p>
